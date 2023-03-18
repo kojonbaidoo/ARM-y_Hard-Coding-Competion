@@ -853,11 +853,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(1830,810)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
+      <a name="label" val="Y7"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(1830,840)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
+      <a name="label" val="Y6"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp loc="(880,1650)" name="8_bit_ripple_adder">
@@ -866,6 +868,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(1830,900)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
+      <a name="label" val="Y4"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp loc="(710,1920)" name="8_bit_ripple_adder">
@@ -894,11 +897,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(1830,960)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
+      <a name="label" val="Y2"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(1830,870)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
+      <a name="label" val="Y5"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp lib="1" loc="(480,1480)" name="AND Gate">
@@ -915,6 +920,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(1830,930)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
+      <a name="label" val="Y3"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(170,770)" name="Pin">
@@ -938,6 +944,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(1830,990)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
+      <a name="label" val="Y1"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(190,770)" name="Pin">
@@ -950,6 +957,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(1830,1020)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
+      <a name="label" val="Y0"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp loc="(1740,830)" name="8_bit_ripple_adder">
