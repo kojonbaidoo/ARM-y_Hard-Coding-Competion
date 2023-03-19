@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Mar 19 19:38:26 2023
+# Process ID: 22460
+# Current directory: C:/Users/THINKPAD/Documents/GitHub/ARM-y_Hard-Coding-Competion/Arm-y_Hard_Coding_Competition
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16480 C:\Users\THINKPAD\Documents\GitHub\ARM-y_Hard-Coding-Competion\Arm-y_Hard_Coding_Competition\Arm-y_Hard_Coding_Competition.xpr
+# Log file: C:/Users/THINKPAD/Documents/GitHub/ARM-y_Hard-Coding-Competion/Arm-y_Hard_Coding_Competition/vivado.log
+# Journal file: C:/Users/THINKPAD/Documents/GitHub/ARM-y_Hard-Coding-Competion/Arm-y_Hard_Coding_Competition\vivado.jou
+#-----------------------------------------------------------start_gui
+oopen_project C:/Users/THINKPAD/Documents/GitHub/ARM-y_Hard-Coding-Competion/Arm-y_Hard_Coding_Competition/Arm-y_Hard_Coding_Competition.xprINFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/THINKPAD/Documents/GitHub/ARM-y_Hard-Coding-Competion/Arm-y_Hard_Coding_Competition'
+INFO: [Project 1-313] Project file moved from 'C:/Users/Kojo/Documents/GitHub/ARM-y_Hard-Coding-Competion/Arm-y_Hard_Coding_Competition' since last save.
+Scanning sources...
+Finished scanning sources
+WWARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/THINKPAD/Documents/GitHub/ARM-y_Hard-Coding-Competion/Arm-y_Hard_Coding_Competition/Arm-y_Hard_Coding_Competition.ip_user_files', nor could it be found using path 'C:/Users/Kojo/Documents/GitHub/ARM-y_Hard-Coding-Competion/Arm-y_Hard_Coding_Competition/Arm-y_Hard_Coding_Competition.ip_user_files'.INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+IINFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.EINFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'tclapp::load_apps' was cancelled
+1
+INFO: [Common 17-344] 'open_project' was exit
+INFO:exit
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 19 19:43:18 2023...
