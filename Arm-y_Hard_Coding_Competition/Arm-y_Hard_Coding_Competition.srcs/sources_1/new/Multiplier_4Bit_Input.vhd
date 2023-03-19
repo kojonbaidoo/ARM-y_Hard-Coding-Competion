@@ -62,7 +62,5 @@ begin
            M => M1, N => N1, O => O1, P => P1, 
            Q => Q1, R => R1, S => S1, T => T1, 
            U => U1, V => V1, W => W1, X => X1);
-           
-    RA81: Ripple_Adder_8Bits port map(
 
 end Structural;
