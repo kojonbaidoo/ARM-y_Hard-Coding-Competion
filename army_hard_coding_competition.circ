@@ -19,7 +19,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="valign" val="base"/>
     </tool>
   </lib>
-  <main name="main"/>
+  <main name="calculator"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
     <a name="simlimit" val="1000"/>
@@ -52,16 +52,17 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <tool lib="1" name="AND Gate"/>
     <tool lib="1" name="OR Gate"/>
   </toolbar>
-  <circuit name="main">
-    <a name="circuit" val="main"/>
+  <circuit name="calculator">
+    <a name="circuit" val="calculator"/>
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
     <wire from="(730,490)" to="(730,500)"/>
+    <wire from="(740,380)" to="(740,390)"/>
     <wire from="(440,30)" to="(500,30)"/>
     <wire from="(1090,360)" to="(1200,360)"/>
-    <wire from="(400,630)" to="(460,630)"/>
     <wire from="(460,650)" to="(520,650)"/>
+    <wire from="(460,610)" to="(520,610)"/>
     <wire from="(730,370)" to="(780,370)"/>
     <wire from="(130,30)" to="(440,30)"/>
     <wire from="(700,200)" to="(700,330)"/>
@@ -89,6 +90,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(680,230)" to="(680,330)"/>
     <wire from="(580,430)" to="(670,430)"/>
     <wire from="(890,390)" to="(920,390)"/>
+    <wire from="(450,610)" to="(460,610)"/>
     <wire from="(400,170)" to="(540,170)"/>
     <wire from="(680,440)" to="(680,500)"/>
     <wire from="(1090,380)" to="(1180,380)"/>
@@ -103,7 +105,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(740,390)" to="(740,400)"/>
     <wire from="(460,620)" to="(520,620)"/>
     <wire from="(690,60)" to="(690,330)"/>
-    <wire from="(730,380)" to="(780,380)"/>
     <wire from="(670,430)" to="(670,500)"/>
     <wire from="(660,260)" to="(660,330)"/>
     <wire from="(460,630)" to="(460,640)"/>
@@ -124,8 +125,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(670,90)" to="(670,330)"/>
     <wire from="(560,230)" to="(560,410)"/>
     <wire from="(370,260)" to="(570,260)"/>
-    <wire from="(450,610)" to="(520,610)"/>
     <wire from="(580,480)" to="(720,480)"/>
+    <wire from="(730,380)" to="(740,380)"/>
     <wire from="(580,460)" to="(700,460)"/>
     <wire from="(740,400)" to="(740,410)"/>
     <wire from="(460,630)" to="(520,630)"/>
@@ -165,7 +166,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(130,230)" to="(380,230)"/>
     <wire from="(730,360)" to="(780,360)"/>
     <wire from="(1170,390)" to="(1170,480)"/>
+    <wire from="(460,610)" to="(460,620)"/>
     <wire from="(740,420)" to="(780,420)"/>
+    <wire from="(740,380)" to="(780,380)"/>
     <wire from="(400,170)" to="(400,570)"/>
     <wire from="(420,90)" to="(520,90)"/>
     <wire from="(440,30)" to="(440,570)"/>
@@ -175,7 +178,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(580,490)" to="(730,490)"/>
     <wire from="(1210,360)" to="(1220,360)"/>
     <wire from="(970,520)" to="(970,560)"/>
-    <wire from="(710,400)" to="(740,400)"/>
     <wire from="(530,120)" to="(530,410)"/>
     <wire from="(720,170)" to="(720,330)"/>
     <wire from="(740,520)" to="(900,520)"/>
@@ -248,9 +250,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="fanout" val="8"/>
       <a name="incoming" val="8"/>
     </comp>
-    <comp lib="0" loc="(400,630)" name="Constant">
-      <a name="value" val="0x0"/>
-    </comp>
     <comp lib="0" loc="(130,30)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="A3"/>
@@ -276,9 +275,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="output" val="true"/>
       <a name="label" val="Y6"/>
       <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(710,400)" name="Constant">
-      <a name="value" val="0x0"/>
     </comp>
     <comp lib="0" loc="(970,560)" name="Pin">
       <a name="facing" val="north"/>
