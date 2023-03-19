@@ -32,7 +32,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 entity main is
---  Port ( );
+  Port ( );
 end main;
 
 architecture Behavioral of main is
