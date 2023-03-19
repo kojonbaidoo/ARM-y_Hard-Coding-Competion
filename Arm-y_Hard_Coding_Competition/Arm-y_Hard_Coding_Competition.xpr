@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="39" Path="C:/Users/THINKPAD/Documents/GitHub/ARM-y_Hard-Coding-Competion/Arm-y_Hard_Coding_Competition/Arm-y_Hard_Coding_Competition.xpr">
+<Project Version="7" Minor="39" Path="C:/Users/Kojo/Documents/GitHub/ARM-y_Hard-Coding-Competion/Arm-y_Hard_Coding_Competition/Arm-y_Hard_Coding_Competition.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="1be1a15cdf9f421e993c580559a37920"/>
@@ -73,6 +73,12 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sources_1/new/Subtractor_4Bit.vhd">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sources_1/new/main.vhd">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
@@ -82,7 +88,7 @@
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="Ripple_Adder_4Bit"/>
+        <Option Name="TopModule" Val="Subtractor_4Bit"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
       </Config>
     </FileSet>
@@ -96,7 +102,7 @@
       <Filter Type="Srcs"/>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="Ripple_Adder_4Bit"/>
+        <Option Name="TopModule" Val="Subtractor_4Bit"/>
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
         <Option Name="TransportPathDelay" Val="0"/>
