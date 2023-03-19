@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="39" Path="C:/Users/THINKPAD/Documents/GitHub/ARM-y_Hard-Coding-Competion/Arm-y_Hard_Coding_Competition/Arm-y_Hard_Coding_Competition.xpr">
+<Project Version="7" Minor="39" Path="C:/Users/Kojo/Documents/GitHub/ARM-y_Hard-Coding-Competion/Arm-y_Hard_Coding_Competition/Arm-y_Hard_Coding_Competition.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="1be1a15cdf9f421e993c580559a37920"/>
